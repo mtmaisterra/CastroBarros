@@ -17,7 +17,7 @@ export default {
         white: '#FFFFFF'
       },
       backgroundImage: {
-         'fondoInicio': "url('/src/assets/Castillo3.jpg')",
+         fondoInicio: "url('/src/assets/images/castillo3.jpg')",
          },
       fontFamily: {
         text: 'Roboto',
