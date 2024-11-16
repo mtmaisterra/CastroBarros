@@ -27,6 +27,7 @@ import staVeraCruz2 from '../assets/images/SantaVeraCruz2.jpg';
 import staVeraCruz3 from '../assets/images/SantaVeraCruz3.jpg';
 import solarCastroBarros from '../assets/images/SolarCastroBarros.jpg';
 import mapa from '../assets/images/Mapa.jpg';
+import MaisterraLogo from '../assets/images/MaisterraLogo.png';
 import laRioja from '../assets/images/LaRioja.png';
 import festival1 from '../assets/images/Festival1.jpg';
 import festival2 from '../assets/images/Festival2.jpg';
@@ -67,6 +68,7 @@ export {
     liebre,
     logo,
     mapa,
+    MaisterraLogo,
     museo1,
     museo2,
     persona1,
