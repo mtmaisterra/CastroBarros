@@ -11,13 +11,13 @@ export default {
         primaryLight: '#3C6B5C',
         primaryDark: '#1b4235',
         secondary: '#f5f5f5',
-        secondLight: '#d9d9d9',
-        secondDark: '#989a99',
+        secondaryLight: '#d9d9d9',
+        secondaryDark: '#989a99',
         black: '#000000',
         white: '#FFFFFF'
       },
       backgroundImage: {
-         fondoInicio: "url('/src/assets/images/castillo3.jpg')",
+         fondoInicio: "url('./assets/images/Castillo3.jpg')",
          },
       fontFamily: {
         text: 'Roboto',
