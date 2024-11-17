@@ -1,7 +1,7 @@
 import React from 'react';
 import Mapa from '../assets/images/Mapa.jpg'
 
-const home = () => {
+const Home = () => {
   return (
     <div className='flex flex-col items-center font-text'>
      <div className='flex m-7 mt-8'>
@@ -22,4 +22,4 @@ const home = () => {
   )
 }
 
-export default home;
+export default Home;

@@ -8,4 +8,5 @@ const Informacion = () => {
   )
 }
 
-export default Informacion;
+export default Informacion
+
