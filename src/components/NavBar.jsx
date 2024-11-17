@@ -2,6 +2,7 @@ import React from 'react';
 import LogoLaRioja from '../assets/images/LogoByN.png';
 import { Link, useLocation } from 'react-router-dom';
 
+
 const NavBar = () => {
   const location = useLocation();
   return (

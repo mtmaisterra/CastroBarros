@@ -1,11 +1,11 @@
 import React from 'react'
 
-const paisajes = () => {
+const Paisajes = () => {
   return (
-    <div>
-      
+    <div>      
     </div>
   )
 }
 
-export default paisajes;
+export default Paisajes;
+

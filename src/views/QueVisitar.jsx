@@ -8,4 +8,5 @@ const QueVisitar = () => {
   )
 }
 
-export default QueVisitar
+export default QueVisitar;
+

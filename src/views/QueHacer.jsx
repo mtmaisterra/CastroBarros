@@ -8,4 +8,5 @@ const QueHacer = () => {
   )
 }
 
-export default QueHacer
+export default QueHacer;
+
