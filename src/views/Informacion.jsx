@@ -2,7 +2,7 @@ import React from 'react'
 
 const Informacion = () => {
   return (
-    <div>
+    <div className='flex items-center'>
       
     </div>
   )
