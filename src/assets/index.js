@@ -38,6 +38,7 @@ import laRosadita from '../assets/images/LaRosadita.jpg';
 import logoCastroBarros from '../assets/images/LogoCastroBarros.png';
 import logoLaRioja from '../assets/images/logoLaRioja.png';
 import yacurmana from '../assets/images/Yacurmana.jpg';
+import logoLaRiojaTurismo from '../assets/images/logoLaRiojaTurismo.png';
 
 export {
     castillo1,
@@ -67,6 +68,7 @@ export {
     laGruta,
     liebre,
     logo,
+    logoLaRiojaTurismo,
     mapa,
     MaisterraLogo,
     museo1,
