@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import imperdibles from '../data/dataBase';
+import imperdibles from '../data/imperdibles';
 
 const Imperdibles = () => {
   return (
