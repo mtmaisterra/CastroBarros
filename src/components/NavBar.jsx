@@ -23,7 +23,7 @@ const NavBar = () => {
         <Link to='/queHacer' className={`mx-8 ${location.pathname === '/queHacer' ? 'text-primaryDark bg-secondaryLight font-bold py-2 px-4 rounded-lg' : 'hover:text-primaryDark hover:bg-secondaryLight hover:font-bold hover:py-2 hover:px-4 hover:rounded-lg'}`}>
           ¿Qué hacer?
         </Link>
-        <Link to='informacion' className={`mx-8 ${location.pathname === '/informacion' ? 'text-primaryDark bg-secondaryLight font-bold py-2 px-4 rounded-lg' : 'hover:text-primaryDark hover:bg-secondaryLight hover:font-bold hover:py-2 hover:px-4 hover:rounded-lg'}`}>
+        <Link to='/informacion' className={`mx-8 ${location.pathname === '/informacion' ? 'text-primaryDark bg-secondaryLight font-bold py-2 px-4 rounded-lg' : 'hover:text-primaryDark hover:bg-secondaryLight hover:font-bold hover:py-2 hover:px-4 hover:rounded-lg'}`}>
           Información
         </Link>
       </div>
