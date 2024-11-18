@@ -5,7 +5,7 @@ import NavBar from "../components/NavBar";
 function Layout ({children}) {
     return (
         <>
-            <div className="">
+            <div className="bg-secondaryLight">
                 <NavBar />
                 {children}
                 <Footer />

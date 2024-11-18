@@ -8,32 +8,35 @@ import persona1 from '../assets/images/Persona1.jpg';
 import persona2 from '../assets/images/Persona2.jpg';
 import persona3 from '../assets/images/Persona3.jpg';
 import liebre from '../assets/images/Liebre.jpg';
+import laCosta from '../assets/images/LaCosta.jpg';
 import castillo1 from '../assets/images/Castillo1.jpg';
+import castillo4 from '../assets/images/Castillo4.jpg';
 import castillo3 from '../assets/images/Castillo3.jpg';
 
 
-const lugares = [
+const imperdibles = [
   {
     id: 1,
-    description: 'La gruta de la Virgen del Valle',
-    photo:  laGruta,
-    locaty: 'Anjullón',
+    description: 'Construcciones artesanales',
+    photo:  iglesia2,
+    link: '/iglesia'
   },
   {
     id: 2,
-    description: 'Solar de Castro Barros',
-    photo:  solar,
-    locaty: 'Chuquis',
+    description: 'Sueños y fantasias',
+    photo:  castillo4,
+    link: '/castillo'
   },
   {
     id: 3,
-    description: 'Museo Carlos Saúl Menem',
-    photo:  museo,
-    locaty: 'Anillaco',
+    description: 'Paisajes pintorescos',
+    photo:  laCosta,
+    link:'/paisajes'
   },
 ];
-export default lugares;
+export default imperdibles;
 
+/* 
 export const iglesias = [
 {
 id: 1,
@@ -95,4 +98,4 @@ export const maravillas =[
     photo:  liebre,
     name: 'FAUNA',
   },
-]
+] */

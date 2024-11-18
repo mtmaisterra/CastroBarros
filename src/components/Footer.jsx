@@ -6,14 +6,14 @@ import logoPropio from '../assets/images/MaisterraLogo.png';
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
-    <footer className='bg-primaryDark flex h-40 flex-col items-center justify-center text-center'>
+    <footer className='bg-primaryDark flex mt-1.5 h-[163px] flex-col items-center justify-center text-center'>
       <div className='flex justify-centeritems-center text-center mb-6'>        
-          <img src={logoCastroBarros} className='w-24' />
-          <img src={logoLaRioja} className='w-24' />
-          <img src={logoPropio} className='w-24' />
+          <img src={logoCastroBarros} className='w-24 mx-2' />
+          <img src={logoLaRioja} className='w-24 mx-2' />
+          <img src={logoPropio} className='w-24 mx-2' />
         </div>
         <div className='justify-center items-center text-center'>
-        <p className='text-center text-secondaryLight text-1xl'>Copyright &copy; -  {year} - Maisterra digital designs</p>
+        <p className='text-center text-secondaryLight text-1xl mb-1.5'>Copyright &copy; -  {year} - Maisterra digital designs</p>
       </div>
     </footer>
   )
