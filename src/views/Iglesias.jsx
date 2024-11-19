@@ -5,7 +5,7 @@ const iglesias = () => {
   return (
     <>
       <div className='items-center justify-center'>
-        <h1 className='flex text-8xl justify-center text-primaryDark font-bold text-center mt-3.5 mb-3'>Iglesias</h1>
+        <h1 className='flex text-8xl justify-center text-primaryDark font-bold text-center mt-[15px] mb-3'>Iglesias</h1>
         <div className='flex justify-center items-center text-center'>
         <div className='grid grid-cols-3 gap-3 justify-center text-center pt-2.5 pb-2'>
           {datoIglesias.map((dato, id) => (
