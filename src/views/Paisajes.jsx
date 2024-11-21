@@ -4,6 +4,7 @@ import Castillo3 from '../assets/images/Castillo3.jpg';
 import Castillo1 from '../assets/images/Castillo1.jpg';
 import Castillo2 from '../assets/images/Castillo2.jpg';
 import LaGruta from '../assets/images/LaGruta.jpg';
+import { Link } from 'react-router-dom';
 
 const Paisajes = () => {
   return (
@@ -20,6 +21,9 @@ const Paisajes = () => {
         <img src={Castillo2} className='w-[500px] h-[240px] mr-auto ml-72 mt-[-348px] mb-96' />
         <img src={LaGruta} className='w-[400px] h-[300px] ml-auto mr-96 mt-[-625px] mb-8' />
       </div>
+      <div className='bg-primaryDark w-24 justify-center rounded-xl ml-auto p-2 mr-10 items-center text-center mt-[-52px]'>
+          <Link to='/imperdibles' className='text-center justify-center text-2xl text-secondaryLight'>Atrás</Link>
+        </div>
     </div>
   )
 }

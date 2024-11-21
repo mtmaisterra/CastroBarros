@@ -2,6 +2,7 @@ import React from 'react';
 import StaVeraCruz2 from '../assets/images/SantaVeraCruz2.jpg';
 import StaVeraCruz3 from '../assets/images/SantaVeraCruz3.jpg';
 import Castillo4 from '../assets/images/Castillo4.jpg';
+import { Link } from 'react-router-dom';
 
 const castillo = () => {
   return (
@@ -28,6 +29,9 @@ const castillo = () => {
           </div>
         </div>
       </div>
+      <div className='bg-primaryDark w-24 justify-center rounded-xl ml-auto p-2 mr-10 items-center text-center mt-[-52px]'>
+        <Link to='/imperdibles' className='text-center justify-center text-2xl text-secondaryLight'>Atrás</Link>
+        </div>
     </div>
   )
 }
