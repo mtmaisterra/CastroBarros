@@ -4,25 +4,25 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
 import 'swiper/swiper.min.css';
 
-const slides = [
-  {
-    photo: 'path-to-your-image1.jpg',
-    alt: 'Image 1 description',
-    description: 'Description 1'
-  },
-  {
-    photo: 'path-to-your-image2.jpg',
-    alt: 'Image 2 description',
-    description: 'Description 2'
-  },
-  {
-    photo: 'path-to-your-image3.jpg',
-    alt: 'Image 3 description',
-    description: 'Description 3'
-  }
-];
 
 const QueVisitar = () => {
+  const slides = [
+    {
+      photo: 'path-to-your-image1.jpg',
+      alt: 'Image 1 description',
+      description: 'Description 1'
+    },
+    {
+      photo: 'path-to-your-image2.jpg',
+      alt: 'Image 2 description',
+      description: 'Description 2'
+    },
+    {
+      photo: 'path-to-your-image3.jpg',
+      alt: 'Image 3 description',
+      description: 'Description 3'
+    }
+  ];
   return (
     <div className='items-center'>
       <div className='flex-col mb-4'>
