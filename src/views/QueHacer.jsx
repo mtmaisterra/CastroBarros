@@ -16,22 +16,19 @@ const QueHacer = () => {
       <div className='bg-secondaryDark mx-8 mt-10 mb-4 flex items-center'>
         <img src={Festival2} className='p-4 w-[350px] h-40' />
         <h2 className='items-center text-4xl text-primaryDark text-center px-4'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Cada verano nos espera el Corzo Javier Cuero Vega, donde las coplas, la harina y la albaca pintan de colores el cielo oscuro de la plaza de Anjullón.
         </h2>
       </div>
       <div className='bg-secondaryDark mx-8 mt-10 mb-4 items-center flex'>       
         <h2 className='items-center text-4xl text-primaryDark text-center px-4'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          La destreza de los jinetes se demuestran cada año mezclandose con las tradiciones gauchas en el festival de La doma y el folcklore de Pinchas.
         </h2>
         <img src={Festival3} className='p-4 w-[450px] h-40' />
       </div>
       <div className='bg-secondaryDark mx-8 mt-10 mb-4 items-center flex '>
         <img src={Festival4} className='p-4 w-[350px] h-40' />
         <h2 className='items-center text-4xl text-primaryDark text-center px-4'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Uno de los festivales tradicionales llega cada febrero a coronar de fiesta a la Costa Riojana, vení a disfrutar del Carnaval de La Plaza en Los Molinos.
         </h2>
       </div>
     </div>
