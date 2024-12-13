@@ -3,13 +3,13 @@ import Mapa from '../assets/images/Mapa.jpg'
 
 const Home = () => {
   return (
-    <div className='flex flex-col items-center font-text'>
-     <div className='flex m-7 mt-4'>
-        <h1 className='text-8xl text-primaryDark font-bold'>Características</h1>
+    <div className='items-center font-text'>
+     <div className='m-7 mt-4 items-center text-center'>
+        <h1 className='text-8xl  text-primaryDark font-bold'>Características</h1>
       </div>
-      <div className='flex justify-between mt-5 mb-2'>
-        <img src={ Mapa } className='w-1/2 h-[581px] mx-4'/>
-        <div className='mx-8'>
+      <div className='flex justify-between my-6 mx-auto'>
+        <img src={ Mapa } className='w-1/2 h-[581px] ml-6 mr-4 justify-center'/>
+        <div className='mx-8 mt-3.5 mb-4'>
         <h2 className='p-10 text-6xl text-justify items-center'>
           Es conocido popularmente como “la costa riojana”. Este apelativo se debe a que las localidades se ubican sobre el “costado” oriental del cordón del Velazco.
           Su nombre honra la memoria del sacerdote riojano Pedro Ignacio de Castro Barros, miembro del cuarto período de la Asamblea del Año XIII y del Congreso de Tucumán.

@@ -15,7 +15,6 @@ import iglesiaVirgenRosario from '../assets/images/IglesiaVirgenRosario.jpg';
 import laCosta from '../assets/images/LaCosta.jpg';
 import laGruta from '../assets/images/LaGruta.jpg';
 import liebre from '../assets/images/Liebre.jpg';
-import museo1 from '../assets/images/MuseoCastroBarros.jpg';
 import museo2 from '../assets/images/MuseoPteMenem.jpg';
 import staVeraCruz1 from '../assets/images/SantaVeraCruz1.jpg';
 import staVeraCruz2 from '../assets/images/SantaVeraCruz2.jpg';
@@ -36,7 +35,9 @@ import mail from '../assets/svg/mail.svg';
 import facebook from '../assets/svg/facebook.svg';
 import instagram from '../assets/svg/instagram.svg';
 import youtube from '../assets/svg/youtube.svg';
-
+import left from '../assets/svg/circleLeft.svg';
+import right from '../assets/svg/circleRight.svg';
+import menu from '../assets/svg/menu.svg';
 
 export {
     castillo1,
@@ -60,6 +61,7 @@ export {
     iglesiaStaVeraCruz,
     iglesiaVirgenRosario,
     laRosadita,
+    left,
     logoCastroBarros,
     laCosta,
     laGruta,
@@ -68,9 +70,10 @@ export {
     mail,
     mapa,
     MaisterraLogo,
-    museo1,
+    menu,
     museo2,
     phone,
+    right,
     solarCastroBarros,
     staVeraCruz1,
     staVeraCruz2,

@@ -10,8 +10,8 @@ const castillo = () => {
       <h1 className='flex text-8xl justify-center text-primaryDark font-bold text-center mb-3'>Castillo de Dionisio</h1>
       <div className='flex mt-2 items-center'>
         <h2 className='w-3/4 mx-4 text-3xl text-justify items-center'>
-        Entre los pintorescos cerros del cordón oeste de la Sierra del Velazco, podrás encontrar
-        un lugar único, mistico e inexplicablemente hermoso que ayuda a adornar el verde colorido del paisaje.
+          Entre los pintorescos cerros del cordón oeste de la Sierra del Velazco, podrás encontrar
+          un lugar único, mistico e inexplicablemente hermoso que ayuda a adornar el verde colorido del paisaje.
         </h2>
         <img src={StaVeraCruz2} className='mr-8 ml-6 h-64 w-[600px]' />
       </div>
@@ -22,16 +22,16 @@ const castillo = () => {
         <div className='grid-cols-2 mt-1.5 mb-1.5'>
           <div className='flex flex-col'>
             <h2 className='text-3xl mr-8 ml-[-200px] text-justify'>
-            A 1800 metros de altura, rodeado de los cordones milenarios, lo agreste y pintoresco del solitario paisaje, aparece misterioso y solemne al
-            paso del tiempo la obra de un hombre tan particular como ermitaño, llamado Dionisio Aiscorbe, que en su mente imaginó un hermoso castillo.
+              A 1800 metros de altura, rodeado de los cordones milenarios, lo agreste y pintoresco del solitario paisaje, aparece misterioso y solemne al
+              paso del tiempo la obra de un hombre tan particular como ermitaño, llamado Dionisio Aiscorbe, que en su mente imaginó un hermoso castillo.
             </h2>
-            <img src={Castillo4} className='mt-3.5 mb-2 h-[241px] w-[600px] ml-8 mr-2 items-center'/>
+            <img src={Castillo4} className='mt-3.5 mb-2 h-[241px] w-[600px] ml-8 mr-2 items-center' />
           </div>
         </div>
       </div>
       <div className='bg-primaryDark w-24 justify-center rounded-xl ml-auto p-2 mr-10 items-center text-center mt-[-52px]'>
         <Link to='/imperdibles' className='text-center justify-center text-2xl text-secondaryLight'>Atrás</Link>
-        </div>
+      </div>
     </div>
   )
 }

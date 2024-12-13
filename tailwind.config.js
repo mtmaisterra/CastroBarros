@@ -6,6 +6,14 @@ export default {
     "./src/**/*.{js,jsx}",
   ],
   theme: {
+    screens: {
+      'xs': '320px', // Para pantallas muy pequeñas, menores de sm
+      'sm': '640px', // Pantallas pequeñas
+      'md': '768px', // Pantallas medianas
+      'lg': '1024px', // Pantallas grandes
+      'xl': '1280px', // Pantallas muy grandes
+      '2xl': '1536px', // Pantallas extra grandes
+    },
     extend: {
       colors: {
         primaryLight: '#3C6B5C',
@@ -17,8 +25,8 @@ export default {
         white: '#FFFFFF'
       },
       backgroundImage: {
-         fondoInicio: "url('./assets/images/Castillo3.jpg')",
-         },
+        fondoInicio: "url('./assets/images/Castillo3.jpg')",
+      },
       fontFamily: {
         text: 'Roboto',
       },
